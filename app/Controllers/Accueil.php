@@ -11,6 +11,6 @@ class Accueil extends BaseController
         echo view('accueil/accueil');
         echo view('templates/footer');
     
-    }
+    } 
 }
 ?>

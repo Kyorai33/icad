@@ -8,7 +8,7 @@ use CodeIgniter\Router\RouteCollection;
 
 
 //Admin//
-$routes->get('/newuser','New_User::index');
+$routes->get('/newuser','New_User::index',['filter' => 'authGuard']);
 $routes->post('/newuser/create','New_User::create');
 
 //Login
